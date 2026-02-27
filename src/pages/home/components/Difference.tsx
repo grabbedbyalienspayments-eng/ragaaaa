@@ -1,4 +1,3 @@
-
 import { useTranslation } from 'react-i18next';
 import { useEffect, useRef, useState } from 'react';
 
@@ -96,14 +95,13 @@ export default function Difference() {
               data-reveal="sub"
               style={{
                 ...vis('sub', 200),
-                fontSize: '1rem',
+                fontFamily: 'Cormorant Garamond, serif',
+                fontStyle: 'italic',
+                fontSize: '1.3rem',
                 color: 'rgba(232,165,152,0.7)',
                 fontWeight: 300,
                 lineHeight: 1.8,
                 marginBottom: '1.5rem',
-                fontFamily: 'Cormorant Garamond, serif',
-                fontStyle: 'italic',
-                fontSize: '1.3rem',
               }}
             >
               {t('difference.subtitle')}
